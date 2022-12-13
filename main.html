@@ -9,12 +9,31 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form>
-	<label for="name" id="name">Name</label>
-	<input type="text" value="name">
-	<input type="radio" id="gender">
-	<label for="gender" name="gender" value="male">Male</label>
-       <input type="radio" id="genders">
-	<label for="genders"  name="gender" value="male">Female</label>
+		<label for="name">Name</label>
+		<input type="text" class="name" placeholder="name" required>
+		<label for="email">Email</label>
+		<input type="text" class="email" placeholder="email">
+		<input type="radio" name="gender" value="male" >
+		<label  for="male">Male</label>
+		<input type="radio" name="gender" value="female">
+		<label for="female">Female</label>
+		<label for="age">Age</label>
+		<input type="number" value="age">
+		<label for="DOB">DOB</label>
+		<input type="date" value="dob">
+		<label for="password">Password</label>
+		<input type="password">
+		<label for="option">
+
+			<Select>
+				<option>Asus</option>
+				<option>acer</option>
+				<option>Dell</option>
+				<option>Hell</option>
+			</Select>
+		</label>
+
+		<button type="submit" class="btn" >Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
