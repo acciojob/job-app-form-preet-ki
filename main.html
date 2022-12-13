@@ -10,22 +10,22 @@
 	<!-- the entire body must be written by student -->
 	<form>
 		<label for="name">Name</label>
-		<input type="text" class="name" placeholder="name" required>
+		<input type="text" class="name" placeholder="name" id="name" required>
 		<label for="email">Email</label>
-		<input type="text" class="email" placeholder="email">
-		<input type="radio" name="gender" value="male" >
+		<input type="text" class="email" placeholder="email" required>
+		<input type="radio" name="gender" value="male" id="email" required >
 		<label  for="male">Male</label>
-		<input type="radio" name="gender" value="female">
+		<input type="radio" name="gender" value="female" required >
 		<label for="female">Female</label>
 		<label for="age">Age</label>
-		<input type="number" value="age">
+		<input type="number" value="age" id="age" required>
 		<label for="DOB">DOB</label>
-		<input type="date" value="dob">
+		<input type="date" value="dob" required id="dob">
 		<label for="password">Password</label>
-		<input type="password">
+		<input type="password" required id="password">
 		<label for="option">
 
-			<Select>
+			<Select id="laptop">
 				<option>Asus</option>
 				<option>acer</option>
 				<option>Dell</option>
